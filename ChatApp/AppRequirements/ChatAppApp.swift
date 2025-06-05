@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct ChatAppApp: App {
+    
+    init(){
+        _ = DeviceID.shared
+    }
     var body: some Scene {
         WindowGroup {
             UserListView()

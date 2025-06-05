@@ -9,6 +9,6 @@ import Foundation
 struct Message: Identifiable {
     let id = UUID()
     let text: String
-    let isSentByCurrentUser: Bool
+    let senderID: String
+    let timestamp: Date = Date()
 }
-

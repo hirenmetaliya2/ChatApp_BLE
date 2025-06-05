@@ -8,7 +8,7 @@
 import Foundation
 import CoreBluetooth
 
-struct DiscoveredUser: Hashable, Identifiable{
+struct DiscoveredUser: Hashable, Identifiable {
     let id: UUID
     let peripheral: CBPeripheral?
     let name: String
